@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+export const LayoutContainer = styled.div`
   max-width: 74rem;
   height: calc(100vh - 10rem);
   margin: 5rem auto;
@@ -8,6 +8,7 @@ export const Container = styled.div`
 
   background: ${(props) => props.theme['gray-800']};
   border-radius: 8px;
+
   display: flex;
   flex-direction: column;
 `

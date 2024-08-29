@@ -1,8 +1,10 @@
-import { HistoryContainer, HistoryList } from './styles'
+import { HistoryContainer, HistoryList, Status } from './styles'
+
 export function History() {
   return (
     <HistoryContainer>
       <h1>Meu histórico</h1>
+
       <HistoryList>
         <table>
           <thead>
@@ -17,38 +19,58 @@ export function History() {
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
-              <td>Ha 2 meses</td>
-              <td>Concluído</td>
+              <td>Há 2 meses</td>
+              <td>
+                <Status statuscolor="green">Concluído</Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
-              <td>Ha 2 meses</td>
-              <td>Concluído</td>
+              <td>Há 2 meses</td>
+              <td>
+                <Status statuscolor="green">Concluído</Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
-              <td>Ha 2 meses</td>
-              <td>Concluído</td>
+              <td>Há 2 meses</td>
+              <td>
+                <Status statuscolor="green">Concluído</Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
-              <td>Ha 2 meses</td>
-              <td>Concluído</td>
+              <td>Há 2 meses</td>
+              <td>
+                <Status statuscolor="green">Concluído</Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
-              <td>Ha 2 meses</td>
-              <td>Concluído</td>
+              <td>Há 2 meses</td>
+              <td>
+                <Status statuscolor="green">Concluído</Status>
+              </td>
             </tr>
             <tr>
               <td>Tarefa</td>
               <td>20 minutos</td>
-              <td>Ha 2 meses</td>
-              <td>Concluído</td>
+              <td>Há 2 meses</td>
+              <td>
+                <Status statuscolor="yellow">Em andamento</Status>
+              </td>
+            </tr>
+            <tr>
+              <td>Tarefa</td>
+              <td>20 minutos</td>
+              <td>Há 2 meses</td>
+              <td>
+                <Status statuscolor="red">Interrompido</Status>
+              </td>
             </tr>
           </tbody>
         </table>
