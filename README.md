@@ -13,7 +13,7 @@ Este é um projeto de Pomodoro desenvolvido em **React**, utilizando **React Hoo
 
 ## 🎥 Demonstração
 
-> www.figma.com/design/9TyfFyub1U1SnYJbZFNpfm/Ignite-Timer--Community-?t=DTHwXbeOedonuY9z-0
+>[ www.figma.com](https://www.figma.com/community/file/1127351821076435124)
 
 ## 🚀 Tecnologias Utilizadas
 
